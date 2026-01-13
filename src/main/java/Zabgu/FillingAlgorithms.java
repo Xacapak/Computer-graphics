@@ -104,9 +104,11 @@ public class FillingAlgorithms {
             xMin = (float)(x0);
             xMax = (float)(x0);
 
-            ix0 = (float)(x1 - x0) / height;
-            ix1 = (float)(x3 - x0) / height;
+            // Вычисление шагов интерполяции для левого и правого краев
+            ix0 = (float)(x1 - x0) / height;    // шаг для ребра V0-V1
+            ix1 = (float)(x3 - x0) / height;    // шаг для ребра V0-V3
 
+            // Обеспечение: xMin всегда левый край, xMax - правый
             if (ix0 > ix1) {
                 float t = ix0; ix0 = ix1; ix1 = t;
             }
@@ -155,14 +157,15 @@ public class FillingAlgorithms {
 
         // Заполнение каждой строки
         for (int y = yMin; y < yMax; ++y) {
-            int startX = (int)xMin;
-            int endX = (int)xMax;
+            int startX = (int)xMin;         // левый край строки
+            int endX = (int)xMax;           // правый край строки
 
             // Добавление всех точек в строке
             for (int x = startX; x <= endX; ++x) {
                 points.add(new Point(x, y));
             }
 
+            // Обновление координат краев для следующей строки
             xMin += ix0;
             xMax += ix1;
         }

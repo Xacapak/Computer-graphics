@@ -48,6 +48,7 @@ public class AlgorithmDrawingLine {
             return points;
         }
 
+        // Вычисление шагов приращения (вещественные значения)
         float xIncrement = (float) dx / steps;
         float yIncrement = (float) dy / steps;
 
@@ -55,11 +56,12 @@ public class AlgorithmDrawingLine {
         float y = y0;
 
         for(int i = 0; i <= steps; i++){
-            int roundedX = Math.round(x);
+            int roundedX = Math.round(x); // округление до ближайшего целого
             int roundedY = Math.round(y);
 
             points.add(new Point(roundedX, roundedY));
 
+            // Приращение координат (кроме последней итерации)
             if(i < steps){
                 x += xIncrement;
                 y += yIncrement;

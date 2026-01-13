@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be68b2d6-8f7a-4cc5-978e-26a73f82edfb" name="Changes" comment="">
+    <list default="true" id="be68b2d6-8f7a-4cc5-978e-26a73f82edfb" name="Changes" comment="Correction 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Zabgu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zabgu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Zabgu/AlgorithmDrawingLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Zabgu/AlgorithmDrawingLineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zabgu/AlgorithmDrawingLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zabgu/AlgorithmDrawingLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zabgu/FillingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zabgu/FillingAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zabgu/FilteringAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zabgu/FilteringAlgorithm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +77,15 @@
       <option name="presentableId" value="Default" />
       <updated>1767433357543</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correction 2">
+      <option name="closed" value="true" />
+      <created>1768185020538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768185020538</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correction 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction 2" />
   </component>
 </project>
